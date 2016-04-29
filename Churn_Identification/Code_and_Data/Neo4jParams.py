@@ -13,7 +13,7 @@ for x in range(0,no_of_weeks):
 	u = []
 	num = []
 	i = 0
-	csvStoragepath = '/Users/ankita_mehta/Downloads/spark-1.6.1-bin-hadoop2.6/'
+	csvStoragepath = '<Your Path to spark directory>'
 	with open(csvStoragepath+'output/node4jinput/nodeLabel'+str(x)+'.csv', 'rb') as csvfile:
 		nodereader = csv.reader(csvfile, delimiter=',')
 		for row in nodereader:
